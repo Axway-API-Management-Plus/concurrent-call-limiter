@@ -70,6 +70,14 @@ Lastly you can define a limit on a per method basis like this:
 
 The columns comment and lastUpdate are just text-field and fully optional.  
 
+## Runtime-Example Audit-Messages  
+#### Default configured in KPS  
+![API-Limit](https://github.com/Axway-API-Management-Plus/concurrent-call-limiter/blob/master/images/audit_messages_kps_default.png)
+#### Generic API-Limit configured    
+![API-Limit](https://github.com/Axway-API-Management-Plus/concurrent-call-limiter/blob/master/images/audit_messages_api-limit.png)
+#### Too many concurrent API-Requests    
+![API-Limit](https://github.com/Axway-API-Management-Plus/concurrent-call-limiter/blob/master/images/audit_messages_too_many.png)
+
 ## Changelog
 - 0.0.1 - 21.08.2019
   - Initial version
